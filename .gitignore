@@ -1,0 +1,5 @@
+MusicOrganizer/bin  
+MusicOrganizer.Tests/bin 
+MusicOrganizer/obj 
+MusicOrganizer.Tests/obj
+.vscode
