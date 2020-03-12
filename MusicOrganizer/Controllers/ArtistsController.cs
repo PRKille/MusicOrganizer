@@ -21,9 +21,9 @@ namespace MusicOrganizer.Controllers
     }
 
     [HttpPost("/artists")]
-    public ActionResult Create(string name)
+    public ActionResult Create(string artistName)
     {
-      Artist newArtist = new Artist(name);
+      Artist newArtist = new Artist(artistName);
       return RedirectToAction("Index");
     }
 
